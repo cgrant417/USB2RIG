@@ -1,2 +1,2 @@
-# USB2HUB
+# USB2RIG
 USB2HUB Documentation
