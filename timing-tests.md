@@ -45,7 +45,7 @@ The units are labelled A to E in the results. A, B and C are USB2RIGs, all unmod
   ```
   Each timing jump in the 300 Hz recording was matched against these messages.
 - **Data modes:**
-  - modem73: an open-source OFDM modem. I used my fork, which adds test tools (`tests/phy_jitter`, `tools/phy_cable.sh`, `tools/slip_correlate.py`) at <https://github.com/cgrant417/modem73/tree/outband>. Frames were sent through the cable and the intact ones counted.
+  - modem73: an open-source OFDM modem. I used my fork, which adds test tools (`tests/phy_jitter`, `tools/phy_cable.sh`, `tools/slip_correlate.py`) at <https://github.com/cgrant417/modem73/tree/modem73fm>. Frames were sent through the cable and the intact ones counted.
   - VARA FM 4.4.0 under Wine 8.0: a scripted connect and transfer between two copies.
   - 1200 baud AFSK: Direwolf 1.6. `gen_packets` made 300 APRS position frames of about 90 bytes, numbered so each one could be identified, about 1 s apart. The recording was decoded with `atest`, and the distinct frames counted. Levels were set so Direwolf read an audio level of about 58 on every pairing (speaker 27, mic capture 24, AGC off; peaks around −10 dBFS).
 
