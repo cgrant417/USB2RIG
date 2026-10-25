@@ -28,7 +28,7 @@ I tested three USB2RIG units against two Digirig Mobile units while developing a
 | Audio codec | C-Media CM108B, no crystal on the board (`0d8c:0012`) | C-Media CM108-family (`0d8c:0012`) |
 | Serial (PTT/CAT) | CH340 (`1a86:7523`) | CP2102N (`10c4:ea60`) |
 | Internal USB hub | Terminus FE1.1 (`1a40:0101`) | Microchip/SMSC USB2412 (`0424:2412`) |
-| PTT | Serial RTS/DTR, or CM108 GPIO3 (active-low) | Serial RTS |
+| PTT | Serial RTS | Serial RTS |
 
 The units are labelled A to E in the results. A, B and C are USB2RIGs, all unmodified. D and E are Digirig Mobiles.
 
